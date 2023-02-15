@@ -1,3 +1,175 @@
-html {
-  font-size: 16px;
+:root {
+  --dark: #14142B;
+  --dark-light: #4E4B66;
+  --gray: #6E7191;
+  --gray-medium: #A0A3BD;
+  --gray-light: #EFF0F6;
+  --smoke: #E2E2E2;
+  --smoke-light: #EFEFEF;
+  --white: #FCFCFC;
+  --primary: #FFCE00;
+  --primary-dark: #E6B800;
+  --primary-light: #FAE27B;
+  --danger: #EB0046;
+  --danger-dark: #A20F1D;
+  --danger-light: #F8D7DA;
+  --info: #0d6efd;
+  --info-dark: #041E49;
+  --info-light: #C2E7FF;
+  --warning: #FF9033;
+  --warning-dark: #81124B;
+  --warning-light: #FFD89C;
+  --success: #36AE7C;
+  --success-dark: #094B28;
+  --success-light: #C1F8CF;
 }
+
+/* ESTILOS GENERALES */
+
+/* Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* End Reset */
+
+body {
+  background-color: var(--white);
+  color: var(--dark);
+  font-family: 'Poppins', sans-serif;
+  line-height: normal;
+  font-weight: 400;
+}
+
+main {
+  /* background-color: pink; */
+  min-height: 100vh;
+}
+
+hr {
+  background-color: var(--dark);
+}
+
+/* Typography */
+
+.heading1-1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.heading1-2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.heading1-3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.heading1-4 {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.body-bold {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.body-semibold {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.body-medium {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.small-bold {
+  font-size: .75rem;
+  font-weight: 700;
+}
+
+.small-semibold {
+  font-size: .75rem;
+  font-weight: 600;
+}
+
+.small-regular {
+  font-size: .75rem;
+  font-weight: 400;
+}
+
+/* End Typograpky */
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-radius: .25rem;
+}
+
+.button-block {
+  display: block;
+  width: 100%;
+}
+
+.button-primary {
+  background-color: var(--primary);
+  color: var(--dark);
+}
+
+.button-primary:hover {
+  background-color: var(--primary-dark);
+  color: var(--dark);
+  border-color: var(--primary-dark);
+}
+
+.button-primary:focus, .button-primary:active {
+  background-color: var(--primary);
+  color: var(--dark);
+  border-color: 1px solid var(--primary-dark);
+  box-shadow: 0 0 0 0.25rem var(--primary-light);
+}
+
+.button-outline {
+  background-color: transparent;
+  color: var(--dark);
+  border-color: 1px solid var(--dark);
+}
+
+.button-outline:hover {
+  background-color: var(--gray-light);
+  color: var(--dark);
+  border-color: 1px solid var(--dark);
+}
+
+.button-outline:focus, .button-outline:active {
+  background-color: var(--gray-light);
+  color: var(--dark);
+  border-color: 1px solid var(--dark);
+  box-shadow: 0 0 0 0.25rem var(--gray-medium);
+}
+
+.button-ghost {
+  background-color: transparent;
+  color: var(--dark);
+}
+
+.button-ghost:hover {
+  background-color: var(--gray-light);
+  color: var(--dark);
+}
+
+.button-ghost:focus, .button-ghost:active {
+  background-color: var(--gray-light);
+  color: var(--dark);
+  box-shadow: 0 0 0 0.25rem var(--gray-medium);
+}
+/* End Buttons */
+
+/* END ESTILOS GENERALES */
