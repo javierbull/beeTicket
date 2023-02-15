@@ -1,0 +1,34 @@
+/* Large devices (laptops, less than 1400px) */
+@media (max-width: 1400px) {
+  main {
+    background-color: pink;
+  }
+}
+
+/* Large devices (desktops, tablets landscape, less than 1200px) */
+@media (max-width: 1199.98px) {
+  main {
+    background-color: lavender;
+  }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  main {
+    background-color: salmon;
+  }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  main {
+    background-color: lightblue;
+  }
+}
+
+
+@media (max-width: 575.98px) {
+  main {
+    background-color: lightyellow;
+  }
+}
