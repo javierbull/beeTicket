@@ -45,6 +45,7 @@ body {
 main {
   /* background-color: pink; */
   min-height: 100vh;
+  margin-top: 60px;
 }
 
 hr {
@@ -126,7 +127,7 @@ input[type=number] {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: .25rem;
+  gap: .5rem;
   font-weight: 500;
   text-transform: uppercase;
   border-radius: .25rem;
@@ -194,7 +195,16 @@ input[type=number] {
 /* Navbar */
 .navbar-main {
   background-color: var(--white);
-  padding: 1.25rem 2rem;
+  padding: 0 2rem;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-main .container-fluid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .navbar-main__left {
@@ -202,10 +212,6 @@ input[type=number] {
   display: flex;
   align-items: center;
   gap: 1.5rem;
-}
-
-.navbar-main__right {
-  background-color: lightgreen;
 }
 
 .navbar-main__brand {
@@ -216,10 +222,23 @@ input[type=number] {
 
 .navbar-main__brand img {
   height: 100%;
+  margin-bottom: .25rem;
 }
 
 .dropdown-toggle::after {
     content: none;
+}
+
+.navbar-main__right {
+  /* background-color: lightgreen; */
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.navbar-main__user-img {
+  display: block;
+  width: 1.5rem;
 }
 
 /* End Navbar */
