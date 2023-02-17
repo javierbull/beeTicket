@@ -43,7 +43,7 @@ body {
 }
 
 main {
-  /* background-color: pink; */
+  background-color: yellow;
   min-height: 100vh;
   margin-top: 60px;
 }
@@ -68,6 +68,13 @@ input[type=number] {
 
 /* FIN OCULTAR CONTROLES INCREMENTO */
 
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
 /* Typography */
 
 .heading1-1 {
@@ -242,5 +249,37 @@ input[type=number] {
 }
 
 /* End Navbar */
+
+/* LOGIN */
+.container-form-login {
+  background-color: pink;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-login {
+  background-color: var(--white);
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+
+.form-login__header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-login__logo {
+  display: block;
+  height: 2.5rem;
+}
+
+.form-login__msg {
+  font-size: 1.5rem;
+}
+/* END LOGIN */
 
 /* END ESTILOS GENERALES */

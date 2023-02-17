@@ -11,6 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/8cf3a19778.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="../css/bootstrap.min.css">
   <link rel="stylesheet" href="../css/main.css">
   <link rel="stylesheet" href="../css/mq.css">
@@ -58,20 +59,44 @@
     </nav>
   </header>
   <main>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam assumenda et ex atque, temporibus ullam harum expedita incidunt, quo esse nostrum saepe minus sequi quos dolorem consequatur voluptatibus tempora explicabo facere accusamus vero cum. Dolores molestias aspernatur esse adipisci odit nisi at, sit officia, quaerat consequatur sunt unde suscipit laboriosam officiis culpa eveniet eligendi sint, quasi nesciunt. Voluptates unde enim dolor sed nostrum blanditiis veritatis natus suscipit! Beatae odit odio nesciunt quo pariatur magni iste sed, maxime, reprehenderit cumque in aliquam ipsam similique suscipit quas dolorum quidem sit! Expedita neque alias minima ad voluptatibus nihil doloremque, vero magnam numquam. Quae?
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam assumenda et ex atque, temporibus ullam harum expedita incidunt, quo esse nostrum saepe minus sequi quos dolorem consequatur voluptatibus tempora explicabo facere accusamus vero cum. Dolores molestias aspernatur esse adipisci odit nisi at, sit officia, quaerat consequatur sunt unde suscipit laboriosam officiis culpa eveniet eligendi sint, quasi nesciunt. Voluptates unde enim dolor sed nostrum blanditiis veritatis natus suscipit! Beatae odit odio nesciunt quo pariatur magni iste sed, maxime, reprehenderit cumque in aliquam ipsam similique suscipit quas dolorum quidem sit! Expedita neque alias minima ad voluptatibus nihil doloremque, vero magnam numquam. Quae?
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam assumenda et ex atque, temporibus ullam harum expedita incidunt, quo esse nostrum saepe minus sequi quos dolorem consequatur voluptatibus tempora explicabo facere accusamus vero cum. Dolores molestias aspernatur esse adipisci odit nisi at, sit officia, quaerat consequatur sunt unde suscipit laboriosam officiis culpa eveniet eligendi sint, quasi nesciunt. Voluptates unde enim dolor sed nostrum blanditiis veritatis natus suscipit! Beatae odit odio nesciunt quo pariatur magni iste sed, maxime, reprehenderit cumque in aliquam ipsam similique suscipit quas dolorum quidem sit! Expedita neque alias minima ad voluptatibus nihil doloremque, vero magnam numquam. Quae?
-    </p>
+    <div class="container container-form-login">
+      <div class="row">
+        <form class="form-login shadow">
+          <div class="form-login__header">
+            <img src="../img/logos/beeTicket.png" class="form-login__logo" alt="Logo Bee Ticket">
+            <p class="form-login__msg">
+              ¡Te da la bienvenida!
+            </p>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+
+          <div class="form-group">
+						<label for="password-field">Contraseña</label>
+						<input id="password-field" type="password" class="form-control" name="password" placeholder="Ingresa tu contraseña">
+						<span toggle="#password-field" class="fa fa-regular fa-eye field-icon toggle-password"></span>
+						<small class="text-help small-regular">Contraseña incorrecta</small>
+					</div>
+
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
   </main>
   <footer>
 
   </footer>
+  <script src="../js/jquery.3.2.1.min.js"></script>
   <script src="../js/bootstrap.bundle.min.js"></script>
+  <script src="../js/main.js"></script>
+
 </body>
 
 </html>
