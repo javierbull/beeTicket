@@ -278,6 +278,10 @@ input[type=number] {
 /* End Navbar */
 
 /* Modals */
+.modal-content {
+  border-radius: .5rem;
+}
+
 .modal-header {
   /* background-color: pink; */
   padding: 1.5rem;
@@ -296,6 +300,7 @@ input[type=number] {
 .modal-footer {
   display: flex;
   gap: .5rem;
+  border-top: 0;
 }
 /* End modals */
 
@@ -308,6 +313,8 @@ input[type=number] {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .form-login {
