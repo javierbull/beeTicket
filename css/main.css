@@ -270,6 +270,11 @@ input[type=number] {
   width: 1.5rem;
 }
 
+.dropdown-item-content {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
 /* End Navbar */
 
 /* Modals */

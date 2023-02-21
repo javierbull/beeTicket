@@ -32,10 +32,77 @@
                 expand_more
               </span>
             </button>
-            <ul class="dropdown-menu dropdown-menu-end">
-              <li><button class="dropdown-item" type="button">Action</button></li>
-              <li><button class="dropdown-item" type="button">Another action</button></li>
-              <li><button class="dropdown-item" type="button">Something else here</button></li>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" type="button" href="category.html">
+                  <span class="dropdown-item-content">
+                    <span class="material-icons-outlined">
+                      movie
+                    </span>
+                    Cine
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" type="button" href="category.html">
+                  <span class="dropdown-item-content">
+                    <span class="material-icons-outlined">
+                      mood
+                    </span>
+                    Entretenimiento
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" type="button" href="category.html">
+                  <span class="dropdown-item-content">
+                    <span class="material-icons-outlined">
+                      restaurant
+                    </span>
+                    Restaurantes
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" type="button" href="category.html">
+                  <span class="dropdown-item-content">
+                    <span class="material-icons-outlined">
+                      spa
+                    </span>
+                    Salud y Belleza
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" type="button" href="category.html">
+                  <span class="dropdown-item-content">
+                    <span class="material-icons-outlined">
+                      redeem
+                    </span>
+                    Boxes y Regalos
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" type="button" href="category.html">
+                  <span class="dropdown-item-content">
+                    <span class="material-icons-outlined">
+                      directions_bike
+                    </span>
+                    Deporte
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" type="button" href="category.html">
+                  <span class="dropdown-item-content">
+                    <span class="material-icons-outlined">
+                      school
+                    </span>
+                    Educación
+                  </span>
+                </a>
+              </li>
             </ul>
           </div>
           <a href="contacto.html" class="btn button-ghost">
@@ -76,11 +143,11 @@
           </div>
 
           <div class="form-group">
-						<label for="loginUserpassword">Contraseña</label>
-						<input id="loginUserpassword" type="password" class="form-control" name="password" placeholder="Ingresa tu contraseña">
-						<span toggle="#loginUserpassword" class="fa fa-regular fa-eye field-icon toggle-password"></span>
-						<small class="text-help small-regular">Contraseña incorrecta</small>
-					</div>
+            <label for="loginUserpassword">Contraseña</label>
+            <input id="loginUserpassword" type="password" class="form-control" name="password" placeholder="Ingresa tu contraseña">
+            <span toggle="#loginUserpassword" class="fa fa-regular fa-eye field-icon toggle-password"></span>
+            <small class="text-help small-regular">Contraseña incorrecta</small>
+          </div>
           <div class="login-footer">
             <div class="login-footer__top">
               <button type="submit" class="btn button-primary button-block">
@@ -138,32 +205,32 @@
   </footer>
 
   <!-- Modals -->
-<div class="modal fade" id="modalRecuperarPassword" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Olvide mi contraseña</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <p>
-          Ingrese el correo con el cual se registró. <br>
-          Le enviaremos un código para poder restablecer su contraseña.
-        </p>
-        <div class="form-group">
-          <label for="modalLoginUserCorreo" class="form-label">Correo</label>
-          <input type="email" class="form-control" id="modalLoginUserCorreo">
-          <small class="text-help small-regular">Correo incorrecta</small>
+  <div class="modal fade" id="modalRecuperarPassword" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Olvide mi contraseña</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn button-outline" data-bs-dismiss="modal">Cerrar</button>
-        <button type="button" class="btn button-primary">Enviar</button>
+        <div class="modal-body">
+          <p>
+            Ingrese el correo con el cual se registró. <br>
+            Le enviaremos un código para poder restablecer su contraseña.
+          </p>
+          <div class="form-group">
+            <label for="modalLoginUserCorreo" class="form-label">Correo</label>
+            <input type="email" class="form-control" id="modalLoginUserCorreo">
+            <small class="text-help small-regular">Correo incorrecta</small>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn button-outline" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn button-primary">Enviar</button>
+        </div>
       </div>
     </div>
   </div>
-</div>
-<!-- End Modals -->
+  <!-- End Modals -->
 
   <script src="../js/jquery.3.2.1.min.js"></script>
   <script src="../js/bootstrap.bundle.min.js"></script>
