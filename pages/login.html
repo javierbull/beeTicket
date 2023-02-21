@@ -82,16 +82,16 @@
 						<small class="text-help small-regular">Contraseña incorrecta</small>
 					</div>
           <div class="login-footer">
-            <div class="login-footer-top">
+            <div class="login-footer__top">
               <button type="submit" class="btn button-primary button-block">
                 Ingresar
               </button>
-              <button type="button" name="button" class="btn button-link">
+              <button type="button" name="button" class="btn button-link" data-bs-toggle="modal" data-bs-target="#modalRecuperarPassword">
                 Olvide mi contraseña
               </button>
             </div>
 
-            <div class="login-footer-bottom">
+            <div class="login-footer__bottom">
               <p>
                 ¿No tienes cuenta?
               </p>
@@ -104,9 +104,61 @@
       </div>
     </div>
   </main>
-  <footer>
 
+  <footer class="footer">
+    <div class="container.fluid">
+      <div class="footer__top">
+        <img src="../img/logos/beeTicket.svg" alt="Bee ticket">
+      </div>
+      <div class="footer__body">
+        <ul class="footer-list">
+          <li class="footer-list__item footer-list__item--title">
+            ¿Necesitas ayuda?
+          </li>
+          <li class="footer-list__item">
+            Escribenos a <br>
+            whatsapp: 992192643 <br>
+            correo electrónico: hola@bee.com.pe
+          </li>
+          <li class="footer-list__item">
+            o llámanos al <br> (51) 01 4949335
+          </li>
+          <li class="footer-list__item">
+            De <br>
+            Lunes a viernes: 09:00 am a 6:00pm.
+          </li>
+        </ul>
+      </div>
+      <div class="footer__bottom">
+        <p>
+          © 2023 Todos los derechos reservados
+        </p>
+      </div>
+    </div>
   </footer>
+
+  <!-- Modals -->
+<div class="modal fade" id="modalRecuperarPassword" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Olvide mi contraseña</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>
+          Ingrese el correo con el cual se registró. Le enviaremos un código para poder restablecer su contraseña.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn button-outline" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn button-primary">Enviar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Modals -->
+
   <script src="../js/jquery.3.2.1.min.js"></script>
   <script src="../js/bootstrap.bundle.min.js"></script>
   <script src="../js/main.js"></script>

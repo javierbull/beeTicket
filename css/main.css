@@ -43,7 +43,7 @@ body {
 }
 
 main {
-  background-color: yellow;
+  /* background-color: yellow; */
   min-height: 100vh;
   margin-top: 60px;
 }
@@ -217,6 +217,7 @@ input[type=number] {
 .button-link:focus, .button-link:active {
   background-color: transparent;
   color: var(--info-dark);
+  box-shadow: none;
 }
 /* End Buttons */
 
@@ -271,9 +272,33 @@ input[type=number] {
 
 /* End Navbar */
 
+/* Modals */
+.modal-header {
+  /* background-color: pink; */
+  padding: 1.5rem;
+  border-bottom: 0;
+}
+
+.modal-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.modal-body, .modal-footer {
+  padding: 0  1.5rem 1.5rem 1.5rem;
+}
+
+.modal-footer {
+  display: flex;
+  gap: .5rem;
+}
+/* End modals */
+
+/* END ESTILOS GENERALES */
+
 /* LOGIN */
 .container-form-login {
-  background-color: pink;
+  /* background-color: pink; */
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -328,7 +353,7 @@ input[type=number] {
   margin-bottom: 1rem;
 }
 
-.login-footer-top {
+.login-footer__top {
   /* background-color: lavender; */
   display: flex;
   flex-direction: column;
@@ -336,7 +361,7 @@ input[type=number] {
   margin-bottom: 1rem;
 }
 
-.login-footer-bottom {
+.login-footer__bottom {
   /* background-color: lightgreen; */
   display: flex;
   flex-direction: column;
@@ -348,4 +373,51 @@ input[type=number] {
 }
 /* END LOGIN */
 
-/* END ESTILOS GENERALES */
+/* FOOTER */
+.footer {
+  background-color: var(--dark);
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  color: var(--white);
+}
+
+.footer__top, .footer__bottom {
+  /* background-color: lightblue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__top img {
+  height: 2rem;
+}
+
+.footer__bottom p {
+  margin-bottom: 0;
+}
+
+.footer__body {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.footer-list {
+  /* background-color: tomato; */
+  list-style: none;
+  width: 20rem;
+  text-align: center;
+}
+
+.footer-list__item--title {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--primary);
+}
+
+.footer-list__item {
+  margin-bottom: 1rem;
+}
+/* END FOOTER */
