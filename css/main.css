@@ -81,24 +81,28 @@ input[type=number] {
   font-size: 2.5rem;
   font-weight: 700;
   text-transform: uppercase;
+  margin-bottom: 1rem;
 }
 
 .heading-2 {
   font-size: 2rem;
   font-weight: 700;
   text-transform: uppercase;
+  margin-bottom: 1rem;
 }
 
 .heading-3 {
   font-size: 1.5rem;
   font-weight: 700;
   text-transform: uppercase;
+  margin-bottom: 1rem;
 }
 
 .heading-4 {
   font-size: 1.25rem;
   font-weight: 700;
   text-transform: uppercase;
+  margin-bottom: 1rem;
 }
 
 .body-bold {
@@ -353,6 +357,15 @@ input[type=number] {
 }
 /* END FOOTER */
 
+/* CARDS */
+.card {
+  padding: 1.5rem;
+  background-color: var(--white);
+  border-radius: .5rem;
+  border: 1px solid var(--gray-light);
+}
+/* EN CARDS */
+
 /* END ESTILOS GENERALES */
 
 /* LOGIN */
@@ -465,5 +478,33 @@ input[type=number] {
 /* END registro */
 
 /* CONTACTO PAGE */
+.card-contacto {
+  margin-bottom: 2rem;
+}
 
+.list-contacto {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.list-contacto__item p {
+  margin-bottom: 0;
+}
+
+.list-contacto__item {
+  display: flex;
+  align-items: center;
+  gap:.5rem;
+  margin-bottom: 1rem;
+}
+
+.list-contacto__item:last-child {
+  margin-bottom: 0;
+}
+
+.form-contacto__footer {
+  display: flex;
+  justify-content: flex-end;
+}
 /* END CONTACTO PAGE */
