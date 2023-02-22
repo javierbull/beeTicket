@@ -36,11 +36,13 @@
   }
 
   /* LOGIN */
-  .form-login {
+
+  .form-login, .form-registro {
+    /* background-color: lavender; */
     width: 100%;
   }
 
-  .form-login__logo {
+  .form-login__logo, .form-registro__logo {
     display: block;
     height: 2rem;
   }

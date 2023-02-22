@@ -356,14 +356,13 @@ input[type=number] {
 /* END ESTILOS GENERALES */
 
 /* LOGIN */
-.container-form-login, .container-form-registro {
+.container-form-login-registro {
   /* background-color: pink; */
   min-height: 100vh;
+  padding: 1.5rem;
   display: flex;
-  justify-content: center;
   align-items: center;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  justify-content: center;
 }
 
 .form-login, .form-registro {
@@ -389,7 +388,7 @@ input[type=number] {
   height: 2rem;
 }
 
-.form-login__msg {
+.form-login__msg, .form-registro__msg {
   font-size: 1.5rem;
 }
 

@@ -126,126 +126,125 @@
     </nav>
   </header>
   <main>
-    <div class="container container-form-registro">
-      <div class="row">
-        <form class="form-registro shadow">
-          <div class="form-registro__header">
-            <img src="../img/logos/beeTicket.png" class="form-registro__logo" alt="Logo Bee Ticket">
-            <p class="form-registro__msg">
-              ¡Te da la bienvenida!
-            </p>
-            <h1 class="form-registro-title heading-3">Regístro</h1>
+    <div class="container-form-login-registro">
+      <form class="form-registro shadow">
+        <div class="form-registro__header">
+          <img src="../img/logos/beeTicket.png" class="form-registro__logo" alt="Logo Bee Ticket">
+          <p class="form-registro__msg">
+            ¡Te da la bienvenida!
+          </p>
+          <h1 class="form-registro-title heading-3">Regístro</h1>
+        </div>
+        <fieldset class="fs-registro" id="fs-registro-correo">
+          <p>
+            Ingresa el correo con el que deseas registrarte
+          </p>
+          <div class="form-group">
+            <label for="registroUserCorreo" class="form-label">Correo</label>
+            <input type="email" class="form-control" id="registroUserCorreo">
+            <small class="text-help small-regular">Correo incorrecto</small>
           </div>
-          <fieldset class="fs-registro" id="fs-registro-correo">
-            <p>
-              Ingresa el correo con el que deseas registrarte
-            </p>
-            <div class="form-group">
-              <label for="registroUserCorreo" class="form-label">Correo</label>
-              <input type="email" class="form-control" id="registroUserCorreo">
-              <small class="text-help small-regular">Correo incorrecto</small>
-            </div>
 
-            <div class="fs-registro-btns">
-              <button type="button" class="btn button-primary button-block" id="btn-show-validar-correo">
-                Continuar
-              </button>
-            </div>
-          </fieldset>
+          <div class="fs-registro-btns">
+            <button type="button" class="btn button-primary button-block" id="btn-show-validar-correo">
+              Continuar
+            </button>
+          </div>
+        </fieldset>
 
-          <fieldset class="fs-registro" id="fs-registro-validar-correo">
-            <p>
-              Te hemos enviado un código de verificación al correo: <br>
-              <span>
-                javierbull@gmail.com
-              </span>
-            </p>
-            <div class="form-group">
-              <label for="registroUserVerficarCorreo" class="form-label">Código de verificación</label>
-              <input type="number" class="form-control" id="registroUserVerficarCorreo">
-              <small class="text-help small-regular">Código incorrecto</small>
-            </div>
+        <fieldset class="fs-registro" id="fs-registro-validar-correo">
+          <p>
+            Te hemos enviado un código de verificación al correo: <br>
+            <span>
+              javierbull@gmail.com
+            </span>
+          </p>
+          <div class="form-group">
+            <label for="registroUserVerficarCorreo" class="form-label">Código de verificación</label>
+            <input type="number" class="form-control" id="registroUserVerficarCorreo">
+            <small class="text-help small-regular">Código incorrecto</small>
+          </div>
 
-            <div class="fs-registro-btns">
-              <button type="button" class="btn button-primary button-block" id="btn-show-completar-cuenta">
-                Verificar
-              </button>
-              <button type="button" name="button" class="btn button-link">
-                Reenviar Nuevo Código
-              </button>
-            </div>
-          </fieldset>
+          <div class="fs-registro-btns">
+            <button type="button" class="btn button-primary button-block" id="btn-show-completar-cuenta">
+              Verificar
+            </button>
+            <button type="button" name="button" class="btn button-link">
+              Reenviar Nuevo Código
+            </button>
+          </div>
+        </fieldset>
 
-          <fieldset class="fs-registro" id="fs-registro-cuenta">
-            <p>
-              Completa tus datos para crear tu cuenta
-            </p>
-            <div class="form-group">
-              <label for="registroUserNombre" class="form-label">Nombre</label>
-              <input type="text" class="form-control" id="registroUserNombre">
+        <fieldset class="fs-registro" id="fs-registro-cuenta">
+          <p>
+            Completa tus datos para crear tu cuenta
+          </p>
+          <div class="form-group">
+            <label for="registroUserNombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="registroUserNombre">
+            <small class="text-help small-regular">Campo obligatorio</small>
+          </div>
+
+          <div class="row">
+            <div class="form-group col-md-6">
+              <label for="registroUserApPaterno" class="form-label">Apellido paterno</label>
+              <input type="text" class="form-control" id="registroUserApPaterno">
               <small class="text-help small-regular">Campo obligatorio</small>
             </div>
-
-            <div class="row">
-              <div class="form-group col-md-6">
-                <label for="registroUserApPaterno" class="form-label">Apellido paterno</label>
-                <input type="text" class="form-control" id="registroUserApPaterno">
-                <small class="text-help small-regular">Campo obligatorio</small>
-              </div>
-              <div class="form-group col-md-6">
-                <label for="registroUserNombreApMaterno" class="form-label">Apellido materno</label>
-                <input type="text" class="form-control" id="registroUserNombreApMaterno">
-                <small class="text-help small-regular">Campo obligatorio</small>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="form-group col-md-6">
-                <label for="registroUserTipoDocumento" class="form-label">Documento</label>
-                <select class="form-select col-md-6" aria-label="Default select example" id="registroUserTipoDocumento">
-                  <option selected>DNI</option>
-                  <option >CE</option>
-                </select>
-                <small class="text-help small-regular">Campo obligatorio</small>
-              </div>
-              <div class="form-group col-md-6">
-                <label for="registroUserNumeroDocumento" class="form-label">Número</label>
-                <input type="text" class="form-control" id="registroUserNumeroDocumento">
-                <small class="text-help small-regular">Campo obligatorio</small>
-              </div>
-            </div>
-
-            <div class="form-group">
-              <label for="registroUserPassword">Contraseña</label>
-              <input id="registroUserPassword" type="password" class="form-control" name="password">
-              <span toggle="#registroUserPassword" class="fa fa-regular fa-eye-slash field-icon toggle-password"></span>
+            <div class="form-group col-md-6">
+              <label for="registroUserNombreApMaterno" class="form-label">Apellido materno</label>
+              <input type="text" class="form-control" id="registroUserNombreApMaterno">
               <small class="text-help small-regular">Campo obligatorio</small>
             </div>
+          </div>
 
-            <div class="form-group">
-              <label for="registroUserPasswordConfirmar">Confirmar contraseña</label>
-              <input id="registroUserPasswordConfirmar" type="password" class="form-control" name="password">
-              <span toggle="#registroUserPasswordConfirmar" class="fa fa-regular fa-eye-slash field-icon toggle-password"></span>
-              <small class="text-help small-regular">Las contraselas no coinciden</small>
+          <div class="row">
+            <div class="form-group col-md-6">
+              <label for="registroUserTipoDocumento" class="form-label">Documento</label>
+              <select class="form-select col-md-6" aria-label="Default select example" id="registroUserTipoDocumento">
+                <option selected>DNI</option>
+                <option >CE</option>
+              </select>
+              <small class="text-help small-regular">Campo obligatorio</small>
             </div>
-
-            <div class="fs-registro-btns">
-              <a type="button" href="../index.html" class="btn button-primary button-block">
-                Crear Cuenta
-              </a>
+            <div class="form-group col-md-6">
+              <label for="registroUserNumeroDocumento" class="form-label">Número</label>
+              <input type="text" class="form-control" id="registroUserNumeroDocumento">
+              <small class="text-help small-regular">Campo obligatorio</small>
             </div>
-          </fieldset>
+          </div>
 
-          <div class="registro-footer">
-            <p>
-              ¿Ya tienes cuenta?
-            </p>
-            <a href="login.html" type="button" name="button" class="btn button-link">
-              Iniciar Sesión
+          <div class="form-group">
+            <label for="registroUserPassword">Contraseña</label>
+            <input id="registroUserPassword" type="password" class="form-control" name="password">
+            <span toggle="#registroUserPassword" class="fa fa-regular fa-eye-slash field-icon toggle-password"></span>
+            <small class="text-help small-regular">Campo obligatorio</small>
+          </div>
+
+          <div class="form-group">
+            <label for="registroUserPasswordConfirmar">Confirmar contraseña</label>
+            <input id="registroUserPasswordConfirmar" type="password" class="form-control" name="password">
+            <span toggle="#registroUserPasswordConfirmar" class="fa fa-regular fa-eye-slash field-icon toggle-password"></span>
+            <small class="text-help small-regular">Las contraselas no coinciden</small>
+          </div>
+
+          <div class="fs-registro-btns">
+            <a type="button" href="../index.html" class="btn button-primary button-block">
+              Crear Cuenta
             </a>
           </div>
-        </form>
-      </div>
+        </fieldset>
+
+        <div class="registro-footer">
+          <p>
+            ¿Ya tienes cuenta?
+          </p>
+          <a href="login.html" type="button" name="button" class="btn button-link">
+            Iniciar Sesión
+          </a>
+        </div>
+      </form>
+    </div>>
     </div>
   </main>
 
