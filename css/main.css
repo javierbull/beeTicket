@@ -438,8 +438,8 @@ input[type=number] {
 }
 /* END LOGIN */
 /* registro */
-#fs-registro-validar-correo, #fs-registro-cuenta {
-  /* display: none; */
+#fs-registro-validar-correo, #fs-registro-cuenta, #div-2 {
+  display: none;
 }
 
 .fs-registro p {
