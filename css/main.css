@@ -438,8 +438,26 @@ input[type=number] {
 }
 /* END LOGIN */
 /* registro */
-.fieldset-registro {
+#fs-registro-validar-correo, #fs-registro-cuenta {
+  /* display: none; */
+}
+
+.fs-registro p {
+  text-align: center;
+}
+
+.fs-registro p span {
+  font-weight: 600;
+}
+
+.fs-registro-btns {
+  /* background-color: lavender; */
   margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
 
 .registro-footer {
