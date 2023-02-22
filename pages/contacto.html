@@ -233,7 +233,7 @@
               <small class="text-help small-regular">Campo obligatorio</small>
             </div>
             <div class="form-contacto__footer">
-              <button type="button" name="button" class="btn button-primary">
+              <button type="button" name="button" class="btn button-primary" data-bs-toggle="modal" data-bs-target="#modalConfirmacionContacto">
                 Enviar Mensaje
               </button>
             </div>
@@ -278,27 +278,20 @@
   </footer>
 
   <!-- Modals -->
-  <div class="modal fade" id="modalRecuperarPassword" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal fade" id="modalConfirmacionContacto" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Olvide mi contraseña</h5>
+          <h5 class="modal-title" id="exampleModalLabel">Mensaje enviado</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
           <p>
-            Ingrese el correo con el cual se registró. <br>
-            Le enviaremos un código para poder restablecer su contraseña.
+            Su mensaje fue enviado con éxito, uno de nuestros asesores se comunicará con usted pra bribarle más información
           </p>
-          <div class="form-group">
-            <label for="modalLoginUserCorreo" class="form-label">Correo</label>
-            <input type="email" class="form-control" id="modalLoginUserCorreo">
-            <small class="text-help small-regular">Correo incorrecta</small>
-          </div>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn button-outline" data-bs-dismiss="modal">Cerrar</button>
-          <button type="button" class="btn button-primary">Enviar</button>
         </div>
       </div>
     </div>
