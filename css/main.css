@@ -478,6 +478,19 @@ input[type=number] {
 /* END registro */
 
 /* CONTACTO PAGE */
+.header-contacto {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.header-contacto h1 {
+  font-size: 2rem;
+}
+
+.header-contacto img {
+  height: 2rem;
+}
+
 .card-contacto {
   margin-bottom: 2rem;
 }
