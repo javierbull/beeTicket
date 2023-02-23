@@ -19,13 +19,20 @@
   }
 
   /* navbar */
+  
+  .navbar-main {
+    padding: 0 ;
+  }
+  
   #btn-menu-mobile {
-    display: flex;
+  display: flex;
   }
 
   .btn-categorias-desktop, .btn-contacto-desktop {
     display: none;
   }
+
+
   /* End navbar */
 
 }
