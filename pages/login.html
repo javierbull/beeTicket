@@ -132,33 +132,99 @@
   <main>
 
       <!-- Off canvas menu mobile -->
-  <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
-    Link with href
-  </a>
-  <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
-    Button with data-bs-target
-  </button>
   
-  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasMenuMobile" aria-labelledby="offcanvasExampleLabel">
     <div class="offcanvas-header">
-      <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+      <!-- <div class="offcanvas-header__default">
+        <img src="../img/icons/user-default.png" alt="usuario">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+          ¡Te damos la bienvenida!
+        </h5>
+      </div> -->
+
+      <div class="offcanvas-header__login">
+        <img src="../img/icons/user.png" alt="usuario registrado">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+          ¡Hola, Javier!
+        </h5>
+      </div>
+
     </div>
     <div class="offcanvas-body">
-      <div>
-        Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
-      </div>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eum sunt accusantium minima saepe qui fuga. Quam incidunt nihil enim ut recusandae aspernatur consequuntur iusto maxime ex adipisci provident laudantium, doloribus asperiores explicabo assumenda minima eius voluptas aliquid dolorum sequi repellendus. Maxime minus molestiae praesentium? Consequuntur ab aperiam distinctio? Expedita necessitatibus provident aspernatur! Debitis consequuntur iste veritatis ratione excepturi cupiditate porro vitae quidem optio mollitia fuga officiis quia totam earum rerum aliquam voluptate harum doloremque illo, voluptas dolor sint. Necessitatibus eius nam tempore, enim excepturi temporibus ipsum autem ut ullam totam fugiat id, vero, eaque distinctio dolorem vel officia veniam.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eum sunt accusantium minima saepe qui fuga. Quam incidunt nihil enim ut recusandae aspernatur consequuntur iusto maxime ex adipisci provident laudantium, doloribus asperiores explicabo assumenda minima eius voluptas aliquid dolorum sequi repellendus. Maxime minus molestiae praesentium? Consequuntur ab aperiam distinctio? Expedita necessitatibus provident aspernatur! Debitis consequuntur iste veritatis ratione excepturi cupiditate porro vitae quidem optio mollitia fuga officiis quia totam earum rerum aliquam voluptate harum doloremque illo, voluptas dolor sint. Necessitatibus eius nam tempore, enim excepturi temporibus ipsum autem ut ullam totam fugiat id, vero, eaque distinctio dolorem vel officia veniam.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eum sunt accusantium minima saepe qui fuga. Quam incidunt nihil enim ut recusandae aspernatur consequuntur iusto maxime ex adipisci provident laudantium, doloribus asperiores explicabo assumenda minima eius voluptas aliquid dolorum sequi repellendus. Maxime minus molestiae praesentium? Consequuntur ab aperiam distinctio? Expedita necessitatibus provident aspernatur! Debitis consequuntur iste veritatis ratione excepturi cupiditate porro vitae quidem optio mollitia fuga officiis quia totam earum rerum aliquam voluptate harum doloremque illo, voluptas dolor sint. Necessitatibus eius nam tempore, enim excepturi temporibus ipsum autem ut ullam totam fugiat id, vero, eaque distinctio dolorem vel officia veniam.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eum sunt accusantium minima saepe qui fuga. Quam incidunt nihil enim ut recusandae aspernatur consequuntur iusto maxime ex adipisci provident laudantium, doloribus asperiores explicabo assumenda minima eius voluptas aliquid dolorum sequi repellendus. Maxime minus molestiae praesentium? Consequuntur ab aperiam distinctio? Expedita necessitatibus provident aspernatur! Debitis consequuntur iste veritatis ratione excepturi cupiditate porro vitae quidem optio mollitia fuga officiis quia totam earum rerum aliquam voluptate harum doloremque illo, voluptas dolor sint. Necessitatibus eius nam tempore, enim excepturi temporibus ipsum autem ut ullam totam fugiat id, vero, eaque distinctio dolorem vel officia veniam.
-      </p>
+      <ul class="main-menu-mobile">
+        <li class="main-menu-mobile__item">
+          <a href="contacto.html" class="main-menu-mobile__link">
+            <span class="material-icons-outlined">
+              call
+            </span>
+            Contacto
+          </a>
+        </li>
+
+        <li class="main-menu-mobile__item">
+          <a href="category.html" class="main-menu-mobile__link">
+            <span class="material-icons-outlined">
+              movie
+            </span>
+            Cine
+          </a>
+        </li>
+
+        <li class="main-menu-mobile__item">
+          <a href="category.html" class="main-menu-mobile__link">
+            <span class="material-icons-outlined">
+              mood
+            </span>
+            Entretenimiento
+          </a>
+        </li>
+
+        <li class="main-menu-mobile__item">
+          <a href="category.html" class="main-menu-mobile__link">
+            <span class="material-icons-outlined">
+              restaurant
+            </span>
+            Restaurantes
+          </a>
+        </li>
+
+        <li class="main-menu-mobile__item">
+          <a href="category.html" class="main-menu-mobile__link">
+            <span class="material-icons-outlined">
+              spa
+            </span>
+            Salud y Belleza
+          </a>
+        </li>
+
+        <li class="main-menu-mobile__item">
+          <a href="category.html" class="main-menu-mobile__link">
+            <span class="material-icons-outlined">
+              redeem
+            </span>
+            Boxes y Regalos
+          </a>
+        </li>
+
+        <li class="main-menu-mobile__item">
+          <span class="dropdown-item-content">
+            <span class="material-icons-outlined">
+              directions_bike
+            </span>
+            Deporte
+          </span>
+          </a>
+        </li>
+
+        <li class="main-menu-mobile__item">
+          <a href="category.html" class="main-menu-mobile__link">
+            <span class="material-icons-outlined">
+              school
+            </span>
+            Educación
+          </a>
+        </li>
+      </ul>
     </div>
   </div>
   <!-- End off canvas mobile -->

@@ -286,10 +286,54 @@ input[type=number] {
 /* End Navbar */
 
 /* Off canvas */
+.offcanvas-header {
+  /* background-color: #C1F8CF; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem; 
+}
+
+.offcanvas-header img {
+  height: 2.5rem;
+}
+
+.offcanvas-header__default, .offcanvas-header__login {
+  /* background-color: tomato; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
 .offcanvas-body {
-  background-color: pink;
+  /* background-color: pink; */
   height: calc(100vh - 62px);
   overflow-y: auto;
+  padding: 1.5rem;
+}
+
+.main-menu-mobile {
+  /* background-color: #E6B800; */
+  list-style: none;
+  padding-left: 0;
+}
+
+.main-menu-mobile__item {
+  margin-bottom: 1.5rem;
+}
+
+.main-menu-mobile__link {
+  /* background-color: #FFCE00; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  text-decoration: none;
+  color: var(--dark);
+  font-size: 1rem;
 }
 /* End off canvas */
 
