@@ -71,13 +71,6 @@ input[type=number] {
 
 /* FIN OCULTAR CONTROLES INCREMENTO */
 
-.show {
-  display: block;
-}
-
-.hide {
-  display: none;
-}
 /* Typography */
 
 .heading-1 {
@@ -300,9 +293,28 @@ input[type=number] {
   height: 2.5rem;
 }
 
-.offcanvas-header__default, .offcanvas-header__login {
+.offcanvas-header__login {
   /* background-color: tomato; */
   width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.offcanvas-header__default {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+
+.offcanvas-header__top {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.offcanvas-header__bottom {
   display: flex;
   align-items: center;
   gap: 1rem;

@@ -135,14 +135,24 @@
   
   <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasMenuMobile" aria-labelledby="offcanvasExampleLabel">
     <div class="offcanvas-header">
-      <!-- <div class="offcanvas-header__default">
-        <img src="../img/icons/user-default.png" alt="usuario">
-        <h5 class="offcanvas-title" id="offcanvasExampleLabel">
-          ¡Te damos la bienvenida!
-        </h5>
-      </div> -->
+      <div class="offcanvas-header__default">
+        <div class="offcanvas-header__top">
+          <img src="../img/icons/user-default.png" alt="usuario">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+            ¡Te damos la bienvenida!
+          </h5>
+        </div>
+        <div class="offcanvas-header__bottom">
+          <a href="login.html" class="btn button-primary">
+            Iniciar Sesión
+          </a>
+          <a href="registro.html" class="btn button-outline">
+            Regístrarme
+          </a>
+        </div>
+      </div>
 
-      <div class="offcanvas-header__login">
+      <div class="offcanvas-header__login d-none">
         <img src="../img/icons/user.png" alt="usuario registrado">
         <h5 class="offcanvas-title" id="offcanvasExampleLabel">
           ¡Hola, Javier!
@@ -151,6 +161,7 @@
 
     </div>
     <div class="offcanvas-body">
+
       <ul class="main-menu-mobile">
         <li class="main-menu-mobile__item">
           <a href="contacto.html" class="main-menu-mobile__link">
@@ -158,6 +169,15 @@
               call
             </span>
             Contacto
+          </a>
+        </li>
+
+        <li class="main-menu-mobile__item">
+          <a href="perfil.html" class="main-menu-mobile__link">
+            <span class="material-icons-outlined">
+              account_circle
+            </span>
+            Mi perfil
           </a>
         </li>
 
@@ -207,12 +227,11 @@
         </li>
 
         <li class="main-menu-mobile__item">
-          <span class="dropdown-item-content">
+          <a href="category.html" class="main-menu-mobile__link">
             <span class="material-icons-outlined">
               directions_bike
             </span>
             Deporte
-          </span>
           </a>
         </li>
 
