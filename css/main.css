@@ -236,6 +236,10 @@ input[type=number] {
   align-items: center;
 }
 
+#btn-menu-mobile {
+  display: none;
+}
+
 .navbar-main__left {
   /* background-color: lightblue; */
   display: flex;

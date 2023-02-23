@@ -18,6 +18,16 @@
     /* background-color: salmon; */
   }
 
+  /* navbar */
+  #btn-menu-mobile {
+    display: flex;
+  }
+
+  .btn-categorias-desktop, .btn-contacto-desktop {
+    display: none;
+  }
+  /* End navbar */
+
 }
 
 /* Small devices (landscape phones, less than 768px) */
