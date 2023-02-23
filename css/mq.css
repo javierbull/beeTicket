@@ -17,6 +17,7 @@
   main {
     /* background-color: salmon; */
   }
+
 }
 
 /* Small devices (landscape phones, less than 768px) */
@@ -34,6 +35,26 @@
   main {
     /* background-color: lightyellow; */
   }
+
+  /* Off canvas */
+  .offcanvas {
+    /* background-color: aquamarine; */
+    max-width: 80%;
+  }
+
+  .offcanvas-header__bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    /* background-color: crimson; */
+  }
+
+  .offcanvas-header__bottom .btn {
+    width: 100%;
+  }
+  /* End off canvas */
 
   /* LOGIN */
 
