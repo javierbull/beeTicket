@@ -14,4 +14,18 @@ $(document).ready(function(){
   });
   // END SHOW-HIDE PASSWORD
 
+  // SHOW HIDE PANLES
+  $("#btn-show-validar-correo").click(function() {
+    $("#fs-registro-correo").hide();
+    $("#fs-registro-validar-correo").show();
+    $("#fs-registro-cuenta").hide();
+  });
+
+  $("#btn-show-completar-cuenta").click(function() {
+    $("#fs-registro-correo").hide();
+    $("#fs-registro-validar-correo").hide();
+    $("#fs-registro-cuenta").show();
+  });
+  // END SHOW HIDE PANELS
+
 });
