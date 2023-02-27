@@ -22,6 +22,8 @@
   --success: #36AE7C;
   --success-dark: #094B28;
   --success-light: #C1F8CF;
+  --shadow: 0px 4px 4px #AFB1BD;
+  --shadow-hover: 0px 4px 8px #6E7191; 
 }
 
 /* ESTILOS GENERALES */
@@ -610,5 +612,35 @@ input[type=number] {
 
 .carousel-mobile {
   display: none;
+}
+
+.grid-gift-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.gift-card {
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  transition: ease .3s;
+}
+
+.gift-card:hover {
+  box-shadow: var(--shadow-hover);
+  transform: scale(1.025);
+}
+
+.gift-card__img {
+  width: 100%;
+}
+
+.section {
+  padding: 2.5rem 0;
 }
 /* END INDEX PAGE */

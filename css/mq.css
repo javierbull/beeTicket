@@ -56,6 +56,12 @@
     display: none;
   }
 
+  .grid-gift-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
   /* End Index */
 }
 
