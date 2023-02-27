@@ -607,4 +607,8 @@ input[type=number] {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
 }
+
+.carousel-mobile {
+  display: none;
+}
 /* END INDEX PAGE */
