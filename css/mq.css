@@ -49,7 +49,11 @@
     /* background-color: lightblue; */
   }
 
-
+  /* Index */
+  .btn-profile-desktop {
+    display: none;
+  }
+  /* End Index */
 }
 
 
