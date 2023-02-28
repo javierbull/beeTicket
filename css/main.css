@@ -649,6 +649,48 @@ input[type=number] {
 /* End section gift card */
 
 /* Section productos más vendidos */
+.card-product {
+  box-shadow: var(--shadow);
+  transition: ease .3s;
+}
+
+.card-product:hover {
+  box-shadow: var(--shadow-hover);
+  transform: scale(1.025);
+}
+
+.card-product__header {
+  background-color: pink;
+  position: relative;
+}
+
+.card-product__img {
+  height: 300px;
+  object-fit: cover;
+}
+
+.card-product__logo {
+  display: inline-block;
+  width: 56px !important;
+  height: 56px;
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.card-product__body {
+  padding: 1rem;
+}
+
+.card-product__footer {
+  padding: 1rem;
+}
+
 
 /* End section productos más vendidos */
 /* END INDEX PAGE */

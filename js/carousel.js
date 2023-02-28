@@ -1,5 +1,5 @@
 $(document).ready(function() {
     // Prueba
-    $('.owl-carousel').owlCarousel();
+    $('#owl-carousel-prueba').owlCarousel();
     // End prueba
 });
