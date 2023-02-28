@@ -683,7 +683,7 @@ input[type=number] {
 }
 
 .card-product__header {
-  background-color: pink;
+  /* background-color: pink; */
   position: relative;
 }
 
@@ -805,13 +805,47 @@ input[type=number] {
 }
 
 .card-category__title {
+  font-size: 1rem;
   margin-bottom: 0;
   color: var(--dark);
   text-align: center;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
 }
 
 .grid-category__link {
   text-decoration: none;
 }
 /* End section categorias */
+.grid-brands-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.card-brand {
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  transition: ease .3s;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+.card-brand:hover {
+  box-shadow: var(--shadow-hover);
+  transform: scale(1.025);
+}
+
+.card-card__img {
+  width: 100%;
+}
+
+
+
+
 /* END INDEX PAGE */
