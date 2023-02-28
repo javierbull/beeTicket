@@ -24,6 +24,7 @@
   --success-light: #C1F8CF;
   --shadow: 0px 4px 4px #AFB1BD;
   --shadow-hover: 0px 4px 8px #6E7191; 
+  --accent: #605CFF;
 }
 
 /* ESTILOS GENERALES */
@@ -119,18 +120,24 @@ input[type=number] {
 }
 
 .small-bold {
-  font-size: .75rem;
+  font-size: .875rem;
   font-weight: 700;
 }
 
 .small-semibold {
-  font-size: .75rem;
+  font-size: .875rem;
   font-weight: 600;
 }
 
 .small-regular {
-  font-size: .75rem;
+  font-size: .875rem;
   font-weight: 400;
+}
+
+.small-overline {
+  font-size: .875rem;
+  font-weight: 500;
+  text-transform: uppercase;
 }
 
 /* End Typograpky */
@@ -685,12 +692,36 @@ input[type=number] {
 
 .card-product__body {
   padding: 1rem;
+  height: 7rem;
+}
+
+.card-product__brand {
+  background-color: #C1F8CF;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+
+.card-product__description {
+  background-color: #A0A3BD;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  margin-bottom: 0;
+  font-weight: 600;
 }
 
 .card-product__footer {
-  padding: 1rem;
+  background-color: burlywood;
+  padding: 0 1rem 1rem 1rem;
 }
 
-
+.card-product__price {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--accent);
+}
 /* End section productos más vendidos */
 /* END INDEX PAGE */
