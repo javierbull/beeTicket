@@ -599,6 +599,7 @@ input[type=number] {
 
 /* INDEX PAGE */
 
+/* Carousel main */
 .carousel-control-icon {
   background: rgba(156, 157, 161, 0.6);
   font-size: 1.5rem;
@@ -613,7 +614,9 @@ input[type=number] {
 .carousel-mobile {
   display: none;
 }
+/* End carousel main */
 
+/* Section gift card */
 .grid-gift-cards {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -643,4 +646,9 @@ input[type=number] {
 .section {
   padding: 2.5rem 0;
 }
+/* End section gift card */
+
+/* Section productos más vendidos */
+
+/* End section productos más vendidos */
 /* END INDEX PAGE */
