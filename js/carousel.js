@@ -1,6 +1,6 @@
 $(document).ready(function() {
     // Prueba
-    $('#owl-carousel-prueba').owlCarousel({
+    $('#owl-carousel-cards-productos').owlCarousel({
         items: 4,
         margin: 0,
         loop: true,
