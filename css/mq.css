@@ -10,6 +10,16 @@
   main {
     /* background-color: lavender; */
   }
+
+  /* Index */
+  /* Owl carousel */
+
+  .owl-carousel .owl-nav {
+    /* background-color: pink; */
+    display: none;
+  }
+  /* Owl carousel */
+  /* End Index */
 }
 
 /* Medium devices (tablets, less than 992px) */
