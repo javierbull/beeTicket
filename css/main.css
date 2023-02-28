@@ -708,7 +708,7 @@ input[type=number] {
 }
 
 .card-product__brand {
-  background-color: #C1F8CF;
+  /* background-color: #C1F8CF; */
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 1;
@@ -716,7 +716,7 @@ input[type=number] {
 }
 
 .card-product__description {
-  background-color: #A0A3BD;
+  /* background-color: #A0A3BD; */
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
@@ -726,7 +726,7 @@ input[type=number] {
 }
 
 .card-product__footer {
-  background-color: burlywood;
+  /* background-color: burlywood; */
   padding: 0 1rem 1rem 1rem;
 }
 
@@ -745,10 +745,19 @@ input[type=number] {
   right: -2rem;
 }
 
-.owl-prev, .owl-next {
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next {
+  /* background-color: pink; */
   position: absolute;
   top: 0;
   bottom: 0;
+  width: 2rem;
+}
+
+.owl-carousel .owl-nav button.owl-prev:hover,
+.owl-carousel .owl-nav button.owl-next:hover {
+  background-color: transparent;
+  color: var(--dark);
 }
 
 .owl-prev span, .owl-next span {

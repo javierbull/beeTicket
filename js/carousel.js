@@ -2,7 +2,7 @@ $(document).ready(function() {
     // Prueba
     $('#owl-carousel-prueba').owlCarousel({
         items: 4,
-        margin: 16,
+        margin: 0,
         loop: true,
         autoplay: true,
         autoplayTimeout: 4000,
