@@ -13,16 +13,10 @@ $(document).ready(function() {
             0: {
               items: 1
             },
-            360: {
-              items: 1
-            },
             480: {
               items: 1
             },
             568: {
-              items: 2
-            },
-            740: {
               items: 2
             },
             768: {

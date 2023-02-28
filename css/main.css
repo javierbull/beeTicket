@@ -713,6 +713,7 @@ input[type=number] {
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 1;
   overflow: hidden;
+  font-weight: 400;
 }
 
 .card-product__description {
@@ -734,6 +735,7 @@ input[type=number] {
   font-size: 1.25rem;
   font-weight: 600;
   color: var(--accent);
+  margin-bottom: 1rem;
 }
 
 /* Owl carousel */
