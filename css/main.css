@@ -656,9 +656,21 @@ input[type=number] {
 /* End section gift card */
 
 /* Section productos más vendidos */
+.content-card-product {
+  /* background-color: pink; */
+  padding: .8rem .5rem;
+}
+
 .card-product {
+  background-color: var(--white);
   box-shadow: var(--shadow);
   transition: ease .3s;
+  overflow: hidden;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
 }
 
 .card-product:hover {
@@ -672,7 +684,7 @@ input[type=number] {
 }
 
 .card-product__img {
-  height: 300px;
+  /* height: 300px; */
   object-fit: cover;
 }
 
@@ -723,5 +735,26 @@ input[type=number] {
   font-weight: 600;
   color: var(--accent);
 }
+
+/* Owl carousel */
+.owl-prev {
+  left: -2rem;
+}
+
+.owl-next {
+  right: -2rem;
+}
+
+.owl-prev, .owl-next {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+.owl-prev span, .owl-next span {
+  font-size: 4rem;
+}
+/* End owl carousel */
+
 /* End section productos más vendidos */
 /* END INDEX PAGE */
