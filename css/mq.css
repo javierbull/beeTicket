@@ -88,6 +88,13 @@
      }
     /* End section categories */
 
+    /* Section brands */
+    .grid-brands-cards {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+    }
+   /* End section brands */
+
   /* End Index */
 }
 
@@ -151,6 +158,13 @@
   }
 
   /* End section categories */
+
+      /* Section brands */
+      .grid-brands-cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+      }
+     /* End section brands */
 
   /* END INDEX */
 }
