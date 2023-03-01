@@ -188,7 +188,7 @@ input[type=number] {
 }
 
 .button-outline {
-  background-color: transparent;
+  background-color: var(--white);
   color: var(--dark);
   border-color: 1px solid var(--dark);
 }
@@ -344,11 +344,21 @@ input[type=number] {
   gap: 1rem;
 }
 
+.offcanvas-title {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
 .offcanvas-body {
   /* background-color: pink; */
   height: calc(100vh - 62px);
   overflow-y: auto;
   padding: 1.5rem;
+}
+
+.offcanvas-footer {
+  /* background-color: #C1F8CF; */
+  padding: 1rem;
 }
 
 .main-menu-mobile {
@@ -931,4 +941,23 @@ input[type=number] {
   flex-wrap: wrap;
   margin-bottom: 2rem;
 }
+
+.wrap-controls-filter-order-mobile {
+  margin-bottom: 1.5rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.menu-filter-mobile {
+  list-style: none;
+  padding-left: 0;
+}
+
+.menu-filter-mobile__item {
+  margin-bottom: 1rem;
+}
+
+
 /* END CATEGORY PAGE */
