@@ -499,9 +499,9 @@
             </ul>
         </div>
     </div>
-    <!-- End off canvas mobile -->
+    <!-- End off canvas menu mobile -->
 
-    <!-- Off canvas menu mobile -->
+    <!-- Off canvas filter mobile -->
     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasFilterMobile"
         aria-labelledby="offcanvasFilterMobileLabel">
         <div class="offcanvas-header">
@@ -545,12 +545,55 @@
         </div>
 
         <div class="offcanvas-footer">
-            <button class="btn button-primary button-block">
+            <button class="btn button-primary button-block" data-bs-dismiss="offcanvas">
                 Aplicar Filtros
             </button>
         </div>
     </div>
-    <!-- End off canvas mobile -->
+    <!-- End off canvas filter mobile -->
+
+    <!-- Off canvas order mobile -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasOrderMobile"
+        aria-labelledby="offcanvasOrderMobileLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasOrderMobileLabel">
+                Ordenar por:
+            </h5>
+        </div>
+
+        <div class="offcanvas-body">
+            <ul class="menu-filter-mobile">
+                <li class="menu-filter-mobile__item">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="orderProductsMobileRadios"
+                            id="optionRadioOrderMobile1" value="option1" checked>
+                        <label class="form-check-label" for="optionRadioOrderMobile1">
+                            Recomendados
+                        </label>
+                    </div>
+                </li>
+                <li class="menu-filter-mobile__item">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="orderProductsMobileRadios"
+                            id="optionRadioOrderMobile2" value="option2">
+                        <label class="form-check-label" for="optionRadioOrderMobile2">
+                            Menor Precio
+                        </label>
+                    </div>
+                </li>
+                <li class="menu-filter-mobile__item">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="orderProductsMobileRadios"
+                            id="optionRadioOrderMobile3" value="option3">
+                        <label class="form-check-label" for="optionRadioOrderMobile3">
+                            Mayor Precio
+                        </label>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- End off canvas order mobile -->
 
     <!-- END OFF CANVAS -->
 
