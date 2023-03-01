@@ -894,6 +894,14 @@ input[type=number] {
   margin-bottom: 0;
 }
 
+.menu-filter-desktop__item {
+  margin-bottom: .5rem;
+}
+
+.menu-filter-desktop__item:last-child {
+  margin-bottom: 0;
+}
+
 .select-order-desktop {
   display: flex;
   gap: .5rem;
