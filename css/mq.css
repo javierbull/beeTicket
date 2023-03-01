@@ -28,6 +28,18 @@
    }
   /* End section categories */
   /* End Index */
+
+  /* CATEGORY PAGE */
+   .card-filter-desktop, .select-order-desktop {
+    display: none;
+   }
+
+   .wrap-controls-filter-order-mobile {
+    display: flex;
+    justify-content: flex-start;
+   }
+  /* END CATEGORY PAGE */
+
 }
 
 /* Medium devices (tablets, less than 992px) */
@@ -96,6 +108,17 @@
    /* End section brands */
 
   /* End Index */
+
+  /* CATEGORY PAGE */
+  .wrap-controls-filter-order-mobile {
+    justify-content: space-between;
+  }
+
+  .card-product-category, .gift-card-category {
+    width: 15rem;
+  }
+  
+  /* END CATEGORY PAGE */
 }
 
 
@@ -167,4 +190,10 @@
      /* End section brands */
 
   /* END INDEX */
+    /* CATEGORY PAGE */  
+    .card-product-category, .gift-card-category {
+      width: 100%;
+    }
+    
+    /* END CATEGORY PAGE */
 }
