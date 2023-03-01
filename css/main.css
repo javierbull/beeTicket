@@ -223,8 +223,8 @@ input[type=number] {
 
 .button-link:hover {
   background-color: transparent;
-  color: var(--info);
-  text-decoration: underline;
+  color: var(--info-dark);
+  text-decoration: none;
 }
 
 .button-link:focus, .button-link:active {
@@ -635,6 +635,7 @@ input[type=number] {
 }
 
 .gift-card {
+  width: 100%;
   overflow: hidden;
   box-shadow: var(--shadow);
   border-radius: 1rem;
@@ -666,6 +667,7 @@ input[type=number] {
 }
 
 .card-product {
+  width: 100%;
   background-color: var(--white);
   box-shadow: var(--shadow);
   transition: ease .3s;
@@ -688,7 +690,7 @@ input[type=number] {
 }
 
 .card-product__img {
-  /* height: 300px; */
+  width: 100%;
   object-fit: cover;
 }
 
@@ -848,5 +850,38 @@ input[type=number] {
 /* END INDEX PAGE */
 
 /* CATEGORY PAGE */
+.category-header {
+  /* background-color: #C1F8CF; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
 
+.category-header__title {
+  margin-bottom: 0;
+}
+
+.select-order-desktop {
+  display: flex;
+  gap: .5rem;
+  align-items: center;
+}
+
+.select-order-desktop__label {
+  /* background-color: pink; */
+  width: 10rem;
+  margin-bottom: 0;
+  text-align: end;
+}
+
+.card-product-category {
+  /* background-color: #A0A3BD !important; */
+  width: 16rem;
+}
+
+.gift-card-category {
+  display: inline-block;
+  width: 16rem;
+}
 /* END CATEGORY PAGE */
