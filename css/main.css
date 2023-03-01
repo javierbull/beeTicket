@@ -104,6 +104,13 @@ input[type=number] {
   margin-bottom: 1rem;
 }
 
+.subtitle {
+  font-size: 1rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
 .body-bold {
   font-size: 1rem;
   font-weight: 700;
@@ -862,6 +869,31 @@ input[type=number] {
   margin-bottom: 0;
 }
 
+.category-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.card-filter-desktop {
+  background-color: var(--white);
+  padding: 1rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  box-shadow: var(--shadow);
+  width: 13rem;
+}
+
+.menu-filter-desktop {
+  padding-left: 0;
+  list-style: none;
+  margin-bottom: 0;
+}
+
 .select-order-desktop {
   display: flex;
   gap: .5rem;
@@ -883,5 +915,12 @@ input[type=number] {
 .gift-card-category {
   display: inline-block;
   width: 16rem;
+}
+
+.section-category-gift-cards, .section-category-products {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
 }
 /* END CATEGORY PAGE */
