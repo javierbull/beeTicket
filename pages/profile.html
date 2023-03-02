@@ -273,7 +273,7 @@
                                     </div>
 
                                     <div class="form-perfil-footer">
-                                        <button class="btn button-primary">
+                                        <button type="button" class="btn button-primary" data-bs-target="#modalDatosGuardados" data-bs-toggle="modal">
                                             Actualizar datos
                                         </button>
                                     </div>
@@ -418,8 +418,7 @@
                     <form>
                         <div class="form-group">
                             <label for="currentUserpassword">Contraseña actual</label>
-                            <input id="currentUserpassword" type="password" class="form-control" name="password"
-                                placeholder="Ingresa tu contraseña actual">
+                            <input id="currentUserpassword" type="password" class="form-control" name="password">
                             <span toggle="#currentUserpassword"
                                 class="fa fa-regular fa-eye field-icon toggle-password"></span>
                             <small class="text-help small-regular">Campo obligatorio</small>
@@ -427,8 +426,7 @@
 
                         <div class="form-group">
                             <label for="newUserpassword">Nueva contraseña</label>
-                            <input id="newUserpassword" type="password" class="form-control" name="password"
-                                placeholder="Ingresa tu nueva contraseña">
+                            <input id="newUserpassword" type="password" class="form-control" name="password">
                             <span toggle="#newUserpassword"
                                 class="fa fa-regular fa-eye field-icon toggle-password"></span>
                             <small class="text-help small-regular">Campo obligatorio</small>
@@ -436,8 +434,7 @@
 
                         <div class="form-group">
                             <label for="confirmNewUserpassword">Confirmar contraseña</label>
-                            <input id="confirmNewUserpassword" type="password" class="form-control" name="password"
-                                placeholder="Confirma tu nueva contraseña">
+                            <input id="confirmNewUserpassword" type="password" class="form-control" name="password">
                             <span toggle="#confirmNewUserpassword"
                                 class="fa fa-regular fa-eye field-icon toggle-password"></span>
                             <small class="text-help small-regular">Las contraseñas no coinciden</small>
@@ -446,15 +443,55 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn button-outline" data-bs-dismiss="modal">Cerrar</button>
-                    <button type="button" class="btn button-primary" data-bs-target="#modaldatosGuardados" data-bs-toggle="modal">Guardar</button>
+                    <button type="button" class="btn button-primary" data-bs-target="#modalDatosGuardados" data-bs-toggle="modal">Guardar</button>
                 </div>
             </div>
         </div>
     </div>
     <!-- End modal cambiar contraseña -->
 
+     <!-- Modal cambiar email -->
+     <div class="modal fade" id="modalCambiarEmail" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Cambiar Email</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="currentUserpasswordEmail">Contraseña actual</label>
+                            <input id="currentUserpasswordEmail" type="password" class="form-control" name="password">
+                            <span toggle="#currentUserpasswordEmail"
+                                class="fa fa-regular fa-eye field-icon toggle-password"></span>
+                            <small class="text-help small-regular">Campo obligatorio</small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="newUserCorreo" class="form-label">Correo</label>
+                            <input type="email" class="form-control" id="newUserCorreo">
+                            <small class="text-help small-regular">Correo incorrecta</small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="confirmNewUserCorreo" class="form-label">Confirmar Correo</label>
+                            <input type="email" class="form-control" id="confirmNewUserCorreo">
+                            <small class="text-help small-regular">Correo incorrecta</small>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn button-outline" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn button-primary" data-bs-target="#modalDatosGuardados" data-bs-toggle="modal">Guardar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End modal cambiar email -->
+
     <!-- Modal datos guardados -->
-    <div class="modal fade" id="modaldatosGuardados" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="modalDatosGuardados" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -465,7 +502,7 @@
                     <div class="modal-content-img">
                         <img src="../img/icons/check.png" alt="Check">
                     </div>
-                    <p>
+                    <p class="text-center">
                         Los datos se guardaron de manera exitosa
                     </p>
                 </div>
