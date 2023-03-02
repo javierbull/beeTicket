@@ -1030,4 +1030,64 @@ input[type=number] {
   gap: 1rem;
   margin-top: 1rem;
 }
+
+/* .load img profile */
+.wrap-img-preview {
+  /* background-color: lavender; */
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.imageWrapper {
+  background-color: var(--white);
+  border: solid 1px var(--gray-medium);
+  overflow: hidden;
+  height: 8rem;
+  width: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.imageWrapper img {
+  width: 100%;
+}
+
+.file-upload {
+  position: relative;
+  overflow: hidden;
+}
+
+.file-input-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  height: 100%;
+}
+
+.wrap-label-file-upload {
+  /* background-color: pink; */
+  display: flex;
+  flex-direction: column;
+  gap:.5rem;
+}
+
+.wrap-label-file-upload  p {
+  margin-bottom: 0;
+  color: var(--dark-light);
+}
+/* End img profile */
 /* END PROFILE PAGE */
