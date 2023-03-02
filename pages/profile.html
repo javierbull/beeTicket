@@ -185,7 +185,7 @@
                 </div>
 
                 <div class="perfil-main">
-                    <div class="d-flex align-items-start">
+                    <div class="wrap-nav-content-pills">
                         <div class="nav flex-column nav-pills bee-vertical-pills me-3" id="v-pills-tab" role="tablist"
                             aria-orientation="vertical">
                             <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill"
@@ -205,10 +205,77 @@
                                 Mis Compras
                             </button>
                         </div>
-                        <div class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-content tab-content-bee" id="v-pills-tabContent">
                             <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
                                 aria-labelledby="v-pills-home-tab">
-                                Mis datos personales
+                                <form class="form-perfil-datos">
+                                    <h2 class="heading-4">
+                                        Mis Datos Personales
+                                    </h2>
+
+                                    <div class="row">
+                                        <div class="form-group col-md-6">
+                                            <label for="perfilUserNombre" class="form-label">Nombre</label>
+                                            <input type="text" class="form-control" id="perfilUserNombre"
+                                                value="Javier">
+                                            <small class="text-help small-regular">Campo obligatorio</small>
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label for="perfilUserApPaterno" class="form-label">Apellido paterno</label>
+                                            <input type="text" class="form-control" id="perfilUserApPaterno"
+                                                value="Bull">
+                                            <small class="text-help small-regular">Campo obligatorio</small>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="form-group col-md-6">
+                                            <label for="perfilUserApMaterno" class="form-label">Apellido materno</label>
+                                            <input type="text" class="form-control" id="perfilUserApMaterno"
+                                                value="Reyes">
+                                            <small class="text-help small-regular">Campo obligatorio</small>
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label for="perfilUserCelular" class="form-label">Celular</label>
+                                            <input type="number" class="form-control" id="perfilUserCelular"
+                                                value="966552125">
+                                            <small class="text-help small-regular">Campo obligatorio</small>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="form-group col-md-6">
+                                            <label for="perfilUserTipoDocumento" class="form-label">Documento</label>
+                                            <select class="form-select col-md-6" aria-label="Default select example"
+                                                id="perfilUserTipoDocumento">
+                                                <option selected>DNI</option>
+                                                <option>CE</option>
+                                            </select>
+                                            <small class="text-help small-regular">Campo obligatorio</small>
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label for="perfilUserNumeroDocumento" class="form-label">Número</label>
+                                            <input type="text" class="form-control" id="perfilUserNumeroDocumento"
+                                                value="74521565">
+                                            <small class="text-help small-regular">Campo obligatorio</small>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-perfil-datos-actions">
+                                        <button class="btn button-outline button-block" data-bs-toggle="modal" data-bs-target="#modalCambiarContraseña">
+                                            Cambiar contraseña
+                                        </button>
+                                        <button class="btn button-outline button-block" data-bs-toggle="modal" data-bs-target="#modalCambiarCorreo">
+                                            Cambiar correo
+                                        </button>
+                                    </div>
+
+                                    <div class="form-perfil-footer">
+                                        <button class="btn button-primary">
+                                            Actualizar datos
+                                        </button>
+                                    </div>
+                                </form>
                             </div>
                             <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
                                 aria-labelledby="v-pills-profile-tab">

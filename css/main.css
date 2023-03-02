@@ -329,7 +329,7 @@ input[type=number] {
   color: var(--dark);
 }
 
-.bee-vertical-pills {
+.bee-vertical-pills, .tab-content-bee {
   background-color: var(--white);
   padding: 1rem;
   box-shadow: var(--shadow);
@@ -339,6 +339,15 @@ input[type=number] {
   -ms-border-radius: 1rem;
   -o-border-radius: 1rem;
 }
+
+.wrap-nav-content-pills {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+
 /* End tabs */
 
 /* Off canvas */
@@ -429,7 +438,7 @@ input[type=number] {
 
 .modal-header {
   /* background-color: pink; */
-  padding: 1.5rem;
+  padding: 1rem;
   border-bottom: 0;
 }
 
@@ -439,7 +448,7 @@ input[type=number] {
 }
 
 .modal-body, .modal-footer {
-  padding: 0  1.5rem 1.5rem 1.5rem;
+  padding: 0  1rem 1rem 1rem;
 }
 
 .modal-footer {
@@ -999,3 +1008,20 @@ input[type=number] {
   margin-bottom: 1rem;
 }
 /* END CATEGORY PAGE */
+
+/* PROFILE PAGE */
+
+.form-perfil-datos-actions {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.form-perfil-footer {
+  /* background-color: pink; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+/* END PROFILE PAGE */
