@@ -302,6 +302,45 @@ input[type=number] {
 }
 /* End Navbar */
 
+/* Tabs */
+.nav-pills .nav-link {
+  background: none;
+  border: 0;
+  border-radius: .5rem;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: var(--dark);
+  background-color: var(--primary);
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  padding: 0.5rem 1rem;
+  color: var(--dark);
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.nav-link:hover, .nav-link:focus {
+  color: var(--dark);
+}
+
+.bee-vertical-pills {
+  background-color: var(--white);
+  padding: 1rem;
+  box-shadow: var(--shadow);
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+/* End tabs */
+
 /* Off canvas */
 .offcanvas-header {
   /* background-color: #C1F8CF; */
@@ -959,6 +998,4 @@ input[type=number] {
 .menu-filter-mobile__item {
   margin-bottom: 1rem;
 }
-
-
 /* END CATEGORY PAGE */
