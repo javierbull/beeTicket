@@ -262,11 +262,13 @@
                                     </div>
 
                                     <div class="form-perfil-datos-actions">
-                                        <button class="btn button-outline button-block" data-bs-toggle="modal" data-bs-target="#modalCambiarContraseña">
-                                            Cambiar contraseña
+                                        <button type="button" class="btn button-outline button-block"
+                                            data-bs-toggle="modal" data-bs-target="#modalCambiarPassword">
+                                            Cambiar Contraseña
                                         </button>
-                                        <button class="btn button-outline button-block" data-bs-toggle="modal" data-bs-target="#modalCambiarCorreo">
-                                            Cambiar correo
+                                        <button type="button" class="btn button-outline button-block"
+                                            data-bs-toggle="modal" data-bs-target="#modalCambiarEmail">
+                                            Cambiar Correo
                                         </button>
                                     </div>
 
@@ -402,6 +404,80 @@
 
     <!-- END OFF CANVAS -->
 
+
+    <!-- MODALS -->
+    <!-- Modal cambiar contraseña -->
+    <div class="modal fade" id="modalCambiarPassword" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Cambiar Contraseña</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="currentUserpassword">Contraseña actual</label>
+                            <input id="currentUserpassword" type="password" class="form-control" name="password"
+                                placeholder="Ingresa tu contraseña actual">
+                            <span toggle="#currentUserpassword"
+                                class="fa fa-regular fa-eye field-icon toggle-password"></span>
+                            <small class="text-help small-regular">Campo obligatorio</small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="newUserpassword">Nueva contraseña</label>
+                            <input id="newUserpassword" type="password" class="form-control" name="password"
+                                placeholder="Ingresa tu nueva contraseña">
+                            <span toggle="#newUserpassword"
+                                class="fa fa-regular fa-eye field-icon toggle-password"></span>
+                            <small class="text-help small-regular">Campo obligatorio</small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="confirmNewUserpassword">Confirmar contraseña</label>
+                            <input id="confirmNewUserpassword" type="password" class="form-control" name="password"
+                                placeholder="Confirma tu nueva contraseña">
+                            <span toggle="#confirmNewUserpassword"
+                                class="fa fa-regular fa-eye field-icon toggle-password"></span>
+                            <small class="text-help small-regular">Las contraseñas no coinciden</small>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn button-outline" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn button-primary" data-bs-target="#modaldatosGuardados" data-bs-toggle="modal">Guardar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End modal cambiar contraseña -->
+
+    <!-- Modal datos guardados -->
+    <div class="modal fade" id="modaldatosGuardados" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Datos guardados</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-content-img">
+                        <img src="../img/icons/check.png" alt="Check">
+                    </div>
+                    <p>
+                        Los datos se guardaron de manera exitosa
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn button-outline" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End modal datos guardados -->
+    <!-- END MODALS -->
+
     <footer class="footer">
         <div class="container.fluid">
             <div class="footer__top">
@@ -438,6 +514,7 @@
     <script src="../js/owl.carousel.min.js"></script>
     <script src="../js/carousel.js"></script>
     <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/main.js"></script>
 </body>
 
 </html>

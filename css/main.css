@@ -456,6 +456,12 @@ input[type=number] {
   gap: .5rem;
   border-top: 0;
 }
+
+.modal-content-img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
 /* End modals */
 
 /* FOOTER */
