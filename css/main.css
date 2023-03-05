@@ -241,6 +241,23 @@ input[type=number] {
 }
 /* End Buttons */
 
+/* Tags */
+ .tag {
+    font-size: .75rem;
+    padding: .25rem .5rem;
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+} 
+
+ .tag-danger {
+  background-color: var(--danger);
+  color: var(--white);
+ }
+/* End tags */
+
 /* Navbar */
 .navbar-main {
   background-color: var(--white);
@@ -1131,7 +1148,16 @@ input[type=number] {
 }
 
 .card-compra__brand {
+  display: flex;
+  gap: .5rem;
+  align-items: center;
+}
+
+.card-compra__title {
   color: var(--gray);
+  margin-bottom: 0;
+  font-size: 1rem;
+  text-transform: uppercase;
 }
 
 .card-compra__desc {
