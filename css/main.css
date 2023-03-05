@@ -1108,7 +1108,7 @@ input[type=number] {
   /* background-color: #C1F8CF; */
   display: flex;
   gap: 1rem;
-  align-items: flex-start;
+  align-items: center;
   max-width: 50rem;
 }
 
@@ -1128,11 +1128,16 @@ input[type=number] {
   gap: .5rem;
 }
 
+.card-compra__brand {
+  color: var(--gray);
+}
+
 .card-compra__desc {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
   overflow: hidden;
+  font-weight: 600;
 }
 
 .card-compra__footer {
@@ -1141,6 +1146,7 @@ input[type=number] {
   align-items: center;
   flex-wrap: wrap;
   font-weight: 600;
+  font-size: 1.25rem;
 }
 
 .card-compra__discount {
