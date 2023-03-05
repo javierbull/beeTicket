@@ -119,6 +119,26 @@
   }
   
   /* END CATEGORY PAGE */
+
+  /* PROFILE PAGE */
+  .content-compra {
+    /* background-color: pink; */
+    min-width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .card-compra__footer {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    flex-wrap: wrap;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  /* END PROFILE PAGE */
 }
 
 
@@ -196,4 +216,35 @@
     }
     
     /* END CATEGORY PAGE */
+
+    /* PROFILE PAGE */
+    .card-compra {
+      /* background-color: #C1F8CF; */
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      align-items: center;
+      max-width: 100%;
+      margin-bottom: 2rem;
+    }
+
+    .card-compra__img {
+      width: 100%;
+    }
+
+    .card-compra__brand {
+      display: flex;
+      gap: .5rem;
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
+
+    .card-compra__desc {
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 3;
+      overflow: hidden;
+      font-weight: 600;
+    }
+    /* END PROFILE PAGE */
 }
