@@ -1099,6 +1099,8 @@ input[type=number] {
 
 /* End contenedor perfil */
 .content-compra {
+  /* background-color: pink; */
+  min-width: 50rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -1114,7 +1116,7 @@ input[type=number] {
 
 .card-compra__img {
   object-fit: cover;
-  width: 12rem;
+  width: 10rem;
   border-radius: .5rem;
   -webkit-border-radius: .5rem;
   -moz-border-radius: .5rem;
