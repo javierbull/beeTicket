@@ -1186,15 +1186,18 @@ input[type=number] {
 /* DETAIL PAGE */
 .detail-main {
   display: flex;
+  justify-content: center;
+  align-items: flex-start;
   gap: 2rem;
 }  
 
 .detail-main__img-logo {
+  /* background-color: pink; */
   position: relative;
 }
 
 .detail-main__img {
-  width: 35rem;
+  width: 30rem;
   object-fit: cover;
   border-radius: 1rem;
   -webkit-border-radius: 1rem;
@@ -1226,12 +1229,7 @@ input[type=number] {
   font-weight: 500;
 }
 
-.detail-main__content {
-  margin-bottom: 1rem;
-}
-
 .detail-main__list {
-  margin-bottom: 1rem;
   list-style: none;
   padding-left: 0;
 }
@@ -1245,9 +1243,8 @@ input[type=number] {
   margin-bottom: .5rem;
 }
 
-.detail-main__price-quantity {
-  background-color: #C1F8CF;
-  margin-bottom: 1rem;
+.detail-main__footer {
+  /* background-color: #C1F8CF; */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -1260,14 +1257,15 @@ input[type=number] {
 }
 
 .control-quantity {
-  /*background-color: var(--white);
-  */display: flex;
+  /*background-color: var(--white);*/
+  display: flex;
   border: 2px solid var(--dark);
   border-radius: .5rem;
   -webkit-border-radius: .5rem;
   -moz-border-radius: .5rem;
   -ms-border-radius: .5rem;
   -o-border-radius: .5rem;
+  margin-bottom: 1rem;
 }
 
 .qtybutton {
@@ -1309,4 +1307,22 @@ input[type=number] {
   border: none;
 }
 
+/* section conditios */
+.section-conditions {
+  background-color: var(--smoke);
+}
+
+.section-conditions__title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.conditions-list {
+  padding-left: 1.5rem;
+}
+
+.condition-list__item {
+  margin-bottom: .5rem;
+}
+/* end section conditions */
 /* END DETAIL PAGE */
