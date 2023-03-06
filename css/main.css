@@ -814,7 +814,7 @@ input[type=number] {
   font-weight: 400;
 }
 
-.card-product__description {
+.card-product__name {
   /* background-color: #A0A3BD; */
   display: -webkit-box;
   -webkit-box-orient: vertical;
@@ -822,6 +822,7 @@ input[type=number] {
   overflow: hidden;
   margin-bottom: 0;
   font-weight: 600;
+  font-size: 1rem;
 }
 
 .card-product__footer {
