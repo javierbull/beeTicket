@@ -1248,10 +1248,65 @@ input[type=number] {
 .detail-main__price-quantity {
   background-color: #C1F8CF;
   margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: .5rem;
 }
 
 .detail-main__price {
   font-size: 1.5rem;
   font-weight: 600;
 }
+
+.control-quantity {
+  /*background-color: var(--white);
+  */display: flex;
+  border: 2px solid var(--dark);
+  border-radius: .5rem;
+  -webkit-border-radius: .5rem;
+  -moz-border-radius: .5rem;
+  -ms-border-radius: .5rem;
+  -o-border-radius: .5rem;
+}
+
+.qtybutton {
+  background-color: var(--white); 
+  font-size: 1.5rem;
+  line-height: 24px;
+}
+
+.qtybutton:hover {
+  background-color: var(--gray-light);
+}
+
+.qtybutton:focus, .qtybutton:active {
+  background-color: var(--gray-light);
+  color: var(--dark);
+  border-color: 0;
+  box-shadow: none;
+}
+
+.qtybutton:first-child {
+  border-radius: .5rem 0 0 .5rem;
+  -webkit-border-radius: .5rem 0 0 .5rem;
+  -moz-border-radius: .5rem 0 0 .5rem;
+  -ms-border-radius: .5rem 0 0 .5rem;
+  -o-border-radius: .5rem 0 0 .5rem;
+}
+
+.qtybutton:last-child {
+  border-radius: 0 .5rem .5rem 0;
+  -webkit-border-radius: 0 .5rem .5rem 0;
+  -moz-border-radius: 0 .5rem .5rem 0;
+  -ms-border-radius: 0 .5rem .5rem 0;
+  -o-border-radius: 0 .5rem .5rem 0;
+}
+
+.plus-minus-box {
+  text-align: center;
+  width: 4rem;
+  border: none;
+}
+
 /* END DETAIL PAGE */
