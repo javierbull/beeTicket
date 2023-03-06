@@ -73,6 +73,30 @@
   }
   /* End Carousel Desktop */
   /* END INDEX */
+
+  /* DETAIL PAGE */
+  .detail-main {
+    /* background-color: cadetblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }  
+
+  .detail-main__footer {
+    /* background-color: #C1F8CF; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .control-quantity {
+    margin-bottom: 0;
+  }
+  /* END DETAIL PAGE */
 }
 
 /* Small devices (landscape phones, less than 768px) */
@@ -247,5 +271,30 @@
       font-weight: 600;
     }
     /* END PROFILE PAGE */
+
+    /* DETAIL PAGE */
+    .detail-main__img {
+      width: 100%;
+    }
+
+    .detail-main__footer {
+      /* background-color: #C1F8CF; */
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: 1rem;
+      width: 100%;
+    }
+
+    .control-quantity, .plus-minus-box {
+      width: 100%;
+    } 
+
+    .btn-block-mobile {
+      width: 100%;
+    }
+
+    /* END DETAIL PAGE */
 
 }
