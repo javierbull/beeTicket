@@ -1218,10 +1218,19 @@ input[type=number] {
   bottom: 1.5rem;
 }
 
+.wrap-brand-tag {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: .5rem;
+  margin-bottom: 1rem;
+}
+
 .detail-main__brand {
-  font-size: 1rem;
+  font-size: 1.25rem;
   color: var(--gray);
   text-transform: uppercase;
+  margin-bottom: 0;
 }
 
 .detail-main__name {
@@ -1306,6 +1315,8 @@ input[type=number] {
   width: 4rem;
   border: none;
 }
+
+
 
 /* section conditios */
 .section-conditions {
