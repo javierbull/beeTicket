@@ -1182,3 +1182,76 @@ input[type=number] {
   color: var(--accent);
 }
 /* END PROFILE PAGE */
+
+/* DETAIL PAGE */
+.detail-main {
+  display: flex;
+  gap: 2rem;
+}  
+
+.detail-main__img-logo {
+  position: relative;
+}
+
+.detail-main__img {
+  width: 35rem;
+  object-fit: cover;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+.detail-main__logo {
+  width: 5rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  position: absolute;
+  right: 1.5rem;
+  bottom: 1.5rem;
+}
+
+.detail-main__brand {
+  font-size: 1rem;
+  color: var(--gray);
+  text-transform: uppercase;
+}
+
+.detail-main__name {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.detail-main__content {
+  margin-bottom: 1rem;
+}
+
+.detail-main__list {
+  margin-bottom: 1rem;
+  list-style: none;
+  padding-left: 0;
+}
+
+.detail-main__list-title {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.detail-main__list-item {
+  margin-bottom: .5rem;
+}
+
+.detail-main__price-quantity {
+  background-color: #C1F8CF;
+  margin-bottom: 1rem;
+}
+
+.detail-main__price {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+/* END DETAIL PAGE */
