@@ -188,16 +188,18 @@
                     <div class="wrap-products-disccount">
                         <div class="wrap-shopping-cards">
                             <div class="shopping-card">
-                                <img src="../img/products/img-card-pollo.jpg" alt="">
+                                <img src="../img/products/img-card-pollo.jpg" class="shopping-card__img" alt="Roky's">
                                 <div class="shopping-card-content">
                                     <div class="shopping-card__top">
                                         <div class="shopping-card__desc">
-                                            <h3>Roky's</h3>
-                                            <p>
+                                            <div class="shopping-card-header">
+                                                <h3 class="shopping-card__brand">Roky's</h3>
+                                            </div>
+                                            <p class="shopping-card__name">
                                                 Combo Familiar con ensalada y gaseosa 1.5L
                                             </p>
                                         </div>
-                                        <button>
+                                        <button class="btn button-ghost">
                                             <span class="material-icons-outlined">
                                                 delete
                                             </span>
@@ -207,33 +209,7 @@
                                         <div class="shopping-card__price">
                                             S/ 50.00
                                         </div>
-                                        <div class="control-quantity">
-                                            <button type="button" name="button" class="dec qtybutton btn">-</button>
-                                            <input type="number" value="1" name="qtybutton" class="plus-minus-box" readonly>
-                                            <button type="button" name="button" class="inc qtybutton btn">+</button>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="shopping-card-content">
-                                    <div class="shopping-card__top">
-                                        <div class="shopping-card__desc">
-                                            <h3>Roky's</h3>
-                                            <p>
-                                                Combo personal con ensalada y gaseosa 250ML
-                                            </p>
-                                        </div>
-                                        <button>
-                                            <span class="material-icons-outlined">
-                                                delete
-                                            </span>
-                                        </button>
-                                    </div>
-                                    <div class="shopping-card__bottom">
-                                        <div class="shopping-card__price">
-                                            S/ 15.00
-                                        </div>
-                                        <div class="control-quantity">
+                                        <div class="control-quantity mb-0">
                                             <button type="button" name="button" class="dec qtybutton btn">-</button>
                                             <input type="number" value="1" name="qtybutton" class="plus-minus-box" readonly>
                                             <button type="button" name="button" class="inc qtybutton btn">+</button>
@@ -241,10 +217,18 @@
                                     </div>
                                 </div>
                             </div>
+
                         </div>
-                        <button>
-                            Agregar código gift card
-                        </button>
+
+                        <div class="content-btn-add-giftcard">
+                            <button class="btn button-action" data-bs-toggle="modal" data-bs-target="#modal-add-giftcard"                                                                       >
+                                <span class="material-icons-outlined">
+                                    add
+                                </span>
+                                Agregar código gift card
+                            </button>
+                        </div>
+
                         <table class="table">
                             <thead>
                               <tr>
@@ -260,9 +244,9 @@
                                 <td>******TH56</td>
                                 <td>Roky’s - Combo Familiar con ensalada y gaseosa 1.5L</td>
                                 <td>15/01/2023 - 15/03/2023</td>
-                                <td>s/ 45.00</td>
+                                <td>s/ 50.00</td>
                                 <td>
-                                    <button>
+                                    <button class="btn button-ghost">
                                         <span class="material-icons-outlined">
                                             delete
                                         </span>
@@ -272,13 +256,14 @@
                             </tbody>
                         </table>
                     </div>
+
                     <div class="card-purchase-summary">
-                        <h2>
+                        <h2 class="heading-4">
                             Resumen de compra
                         </h2>
 
-                        <table>
-                            <tr>
+                        <table class="table-summary">
+                            <tr class="row-summary">
                                 <td>
                                     Subtotal
                                 </td>
@@ -286,7 +271,7 @@
                                     s/ 65.00
                                 </td>
                             </tr>
-                            <tr>
+                            <tr class="row-summary row-accent">
                                 <td>
                                     Descuento
                                 </td>
@@ -294,7 +279,7 @@
                                     s/ 50.00
                                 </td>
                             </tr>
-                            <tr>
+                            <tr class="row-summary footer-summary">
                                 <td>
                                     Total a pagar
                                 </td>

@@ -239,6 +239,24 @@ input[type=number] {
   color: var(--info-dark);
   box-shadow: none;
 }
+
+.button-action {
+  background-color: var(--info);
+  color: var(--white);
+}
+
+.button-action:hover {
+  background-color: var(--info-dark);
+  color: var(--white);
+  border-color: var(--info-dark);
+}
+
+.button-action:focus, .button-action:active {
+  background-color: var(--info);
+  color: var(--white);
+  border-color: 1px solid var(--info-dark);
+  box-shadow: 0 0 0 0.25rem var(--info-light);
+}
 /* End Buttons */
 
 /* Tags */
@@ -1340,5 +1358,112 @@ input[type=number] {
 /* END DETAIL PAGE */
 
 /* SHOPPING CART PAGE */
+.section-shopping-cart-main {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.wrap-products-disccount {
+  background-color: var(--white);
+  padding: 1rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  box-shadow: var(--shadow);
+  width: 54rem;
+}
+
+.shopping-card {
+  background-color: lavender;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.shopping-card__img {
+  width: 10rem;
+  border-radius: .5rem;
+  -webkit-border-radius: .5rem;
+  -moz-border-radius: .5rem;
+  -ms-border-radius: .5rem;
+  -o-border-radius: .5rem;
+}
+
+.shopping-card-content {
+  width: 100%;
+}
+
+.shopping-card__top {
+  background-color: #C2E7FF;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.shopping-card__brand {
+  text-transform: uppercase;
+  color: var(--gray);
+  font-size: 1.25rem;
+}
+
+.shopping-card__bottom {
+  background-color: #C1F8CF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.shopping-card__price {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.content-btn-add-giftcard {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card-purchase-summary {
+  width: 30rem;
+  padding: 1rem;
+  background-color: var(--white);
+  box-shadow: var(--shadow);
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+.table-summary {
+  /* background-color: #C1F8CF; */
+  font-size: 1.25rem;
+  width: 100%;
+}
+
+.row-summary td {
+  padding: .5rem;
+}
+
+.row-summary td:last-child {
+  /* background-color: tomato; */
+  text-align: end;
+}
+
+.row-accent {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.footer-summary {
+  border-top: 2px solid var(--dark);
+}
 
 /* END SHOPPING CART PAGE */
