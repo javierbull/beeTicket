@@ -222,6 +222,22 @@ input[type=number] {
   box-shadow: 0 0 0 0.25rem var(--gray-medium);
 }
 
+.button-ghost-danger {
+  background-color: transparent;
+  color: var(--dark);
+}
+
+.button-ghost-danger:hover {
+  background-color: var(--danger);
+  color: var(--white);
+}
+
+.button-ghost-danger:focus, .button-ghost-danger:active {
+  background-color: var(--danger);
+  color: var(--white);
+  box-shadow: 0 0 0 0.25rem var(--danger-light);
+}
+
 .button-link {
   background-color: transparent;
   color: var(--info);

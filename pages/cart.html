@@ -199,7 +199,7 @@
                                                 Combo Familiar con ensalada y gaseosa 1.5L
                                             </p>
                                         </div>
-                                        <button class="btn button-ghost">
+                                        <button class="btn button-ghost-danger">
                                             <span class="material-icons-outlined">
                                                 delete
                                             </span>
@@ -221,7 +221,7 @@
                         </div>
 
                         <div class="content-btn-add-giftcard">
-                            <button class="btn button-action" data-bs-toggle="modal" data-bs-target="#modal-add-giftcard"                                                                       >
+                            <button class="btn button-action" data-bs-toggle="modal" data-bs-target="#modalAddGiftcard"                                                                       >
                                 <span class="material-icons-outlined">
                                     add
                                 </span>
@@ -246,7 +246,7 @@
                                 <td>15/01/2023 - 15/03/2023</td>
                                 <td>s/ 50.00</td>
                                 <td>
-                                    <button class="btn button-ghost">
+                                    <button class="btn button-ghost-danger ">
                                         <span class="material-icons-outlined">
                                             delete
                                         </span>
@@ -447,6 +447,35 @@
             </div>
         </div>
     </footer>
+
+    <!-- MODALS -->
+    <!-- Modal agregar giftcard -->
+    <div class="modal fade" id="modalAddGiftcard" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Agregar código gift card</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>
+                Ingresa el código de tu gift card
+              </p>
+              <div class="form-group">
+                <label for="modalCodePassword" class="form-label">Código</label>
+                <input type="text" class="form-control" id="modalCodePassword">
+                <small class="text-help small-regular">Código incorrecto</small>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn button-outline" data-bs-dismiss="modal">Cerrar</button>
+              <button type="button" class="btn button-primary">Agregar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- End modal agregar giftcard -->
+    <!-- END MODALS -->
 
     <script src="../js/jquery.3.2.1.min.js"></script>
     <script src="../js/owl.carousel.min.js"></script>
