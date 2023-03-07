@@ -1501,4 +1501,9 @@ input[type=number] {
   align-items: center;
 }
 
+.accent-color {
+  color: var(--accent);
+  font-weight: 600;
+}
+
 /* END SHOPPING CART PAGE */
