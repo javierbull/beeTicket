@@ -1378,6 +1378,7 @@ input[type=number] {
   display: flex;
   align-items: flex-start;
   gap: 2rem;
+  flex-wrap: wrap;
 }
 
 .wrap-products-disccount {
@@ -1389,11 +1390,11 @@ input[type=number] {
   -ms-border-radius: 1rem;
   -o-border-radius: 1rem;
   box-shadow: var(--shadow);
-  width: 54rem;
+  width: 50rem;
 }
 
 .shopping-card {
-  background-color: lavender;
+  /* background-color: lavender; */
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -1414,7 +1415,7 @@ input[type=number] {
 }
 
 .shopping-card__top {
-  background-color: #C2E7FF;
+  /* background-color: #C2E7FF; */
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -1437,7 +1438,7 @@ input[type=number] {
 }
 
 .shopping-card__bottom {
-  background-color: #C1F8CF;
+  /* background-color: #C1F8CF; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1456,7 +1457,7 @@ input[type=number] {
 }
 
 .card-purchase-summary {
-  width: 30rem;
+  width: 25rem;
   padding: 1rem;
   background-color: var(--white);
   box-shadow: var(--shadow);
