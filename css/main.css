@@ -1446,6 +1446,7 @@ input[type=number] {
   /* background-color: #C1F8CF; */
   font-size: 1.25rem;
   width: 100%;
+  margin-bottom: 1.5rem;
 }
 
 .row-summary td {
@@ -1462,8 +1463,16 @@ input[type=number] {
   font-weight: 600;
 }
 
-.footer-summary {
+.bottom-summary {
   border-top: 2px solid var(--dark);
+}
+
+.summary-footer {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* END SHOPPING CART PAGE */
