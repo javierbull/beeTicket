@@ -1549,6 +1549,7 @@ input[type=number] {
   font-size: 1.25rem;
   color: var(--dark);
   font-weight: 600;
+  text-transform: uppercase;
 }
 
 .accordion-button::after {
