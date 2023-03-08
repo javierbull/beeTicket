@@ -1472,6 +1472,10 @@ input[type=number] {
   -o-border-radius: 1rem;
 }
 
+.form-check-conditions {
+  margin-bottom: 1.5rem;
+}
+
 .table-summary {
   /* background-color: #C1F8CF; */
   font-size: 1.25rem;
