@@ -1551,6 +1551,10 @@ input[type=number] {
   align-items: center;
 }
 
+.summary-footer .btn {
+  width: 100%;
+}
+
 .accent-color {
   color: var(--accent);
   font-weight: 600;
