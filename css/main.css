@@ -1595,4 +1595,22 @@ input[type=number] {
 .accordion-checkout {
   width: 45rem;
 }
+
+.checkout-product-card {
+  background-color: #C1F8CF;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.checkout-product-card-content {
+  background-color: cornsilk;
+  width: 100%;
+}
+
+.checkout-product-card__name, .checkout-product-card__quantity {
+  margin-bottom: .5rem;
+}
+
 /* END CHECKOUT PAGE */
