@@ -1666,3 +1666,44 @@ input[type=number] {
 }
 
 /* END CHECKOUT PAGE */
+
+/* OURCHARSE CONFIRMATION PAGE */
+.section-purchase-confirmation {
+  /* background-color: #C1F8CF; */
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.purchase-confirmation-card {
+  background-color: var(--white);
+  padding: 1rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  box-shadow: var(--shadow);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.purchase-confirmation__img {
+  width: 10rem;
+}
+
+.purchase-msg {
+  font-size: 1.25rem;
+}
+
+.purchase-confirmation__footer {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+/* END PURCHARSE CONFIRMATION */
