@@ -208,7 +208,7 @@
                                 <input type="number" value="1" name="qtybutton" class="plus-minus-box" readonly>
                                 <button type="button" name="button" class="inc qtybutton btn">+</button>
                             </div>
-                            <a href="cart.html" type="button" class="btn button-primary btn-block-mobile">
+                            <a type="button" class="btn button-primary btn-block-mobile" data-bs-toggle="modal" data-bs-target="#modalInvitarIngreso">
                                 Agregar al carrito
                             </a>
                         </div>
@@ -499,6 +499,30 @@
             </div>
         </div>
     </footer>
+
+    <!-- MODALS -->
+    <!-- modal invitar ingreso -->
+    <div class="modal fade" id="modalInvitarIngreso" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Ingresa a tu cuenta para continuar</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>
+                Ingresa a tu cuenta o regístrate para poder continuar con la compra
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn button-outline" data-bs-dismiss="modal">Cerrar</button>
+              <a href="login.html" type="button" class="btn button-primary">Ingresar o Registrarse</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- End modal invitar ingreso -->
+    <!-- MODALS -->
 
     <script src="../js/jquery.3.2.1.min.js"></script>
     <script src="../js/owl.carousel.min.js"></script>
