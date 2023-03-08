@@ -581,6 +581,20 @@ input[type=number] {
 /* END ESTILOS GENERALES */
 
 /* LOGIN */
+.bg-login {
+  background-image: url('../img/bg/bg-login.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-registro {
+  background-image: url('../img/bg/bg-registro.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 .container-form-login-registro {
   /* background-color: pink; */
   min-height: 100vh;
