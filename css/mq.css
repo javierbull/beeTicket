@@ -45,6 +45,13 @@
    }
   /* END CART PAGE */
 
+    /* CHECKOUT PAGE */
+    .section-checkout-main {
+      /* background-color: bisque; */
+      justify-content: center;
+    }
+    /* END CHECKOUT PAGE */
+
 }
 
 /* Medium devices (tablets, less than 992px) */
@@ -54,7 +61,6 @@
   }
 
   /* navbar */
-
   .navbar-main {
     padding: 0;
   }
@@ -111,6 +117,7 @@
     width: 100%;
   }
   /* END CART PAGE */
+
 }
 
 /* Small devices (landscape phones, less than 768px) */
@@ -177,6 +184,12 @@
     font-size: 1rem;
   }
   /* END PROFILE PAGE */
+
+  /* CHECKOUT PAGE */
+  .accordion-checkout {
+    width: 100%;
+  }
+  /* END CHECKOUT PAGE */
 }
 
 
@@ -334,5 +347,12 @@
       gap: 1rem;
     }
     /* END CART PAGE */
+
+    /* CHECKOUT PAGE */
+    .checkout-product-card {
+      flex-direction: column;
+      margin-bottom: 2rem;
+    }
+    /* END CHECKOUT PAGE */
 
 }
