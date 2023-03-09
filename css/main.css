@@ -1522,9 +1522,9 @@ input[type=number] {
 }
 
 .form-check-big .form-check-input {
-  width: 1.5em;
-  height: 1.5em;
-  margin-top: 2px;
+  width: 1.25em;
+  height: 1.25em;
+  margin-top: 4px;
   vertical-align: center;
 }
 
